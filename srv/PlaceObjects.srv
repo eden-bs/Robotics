@@ -1,0 +1,7 @@
+# PlaceObject.srv
+
+string object_name
+float64[] place_location
+---
+bool success
+

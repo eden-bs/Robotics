@@ -1,0 +1,7 @@
+# PickObject.srv
+
+string object_name
+float64[] object_location
+---
+bool success
+

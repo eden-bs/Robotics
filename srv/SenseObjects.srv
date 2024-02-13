@@ -1,0 +1,7 @@
+# SenseObjects.srv
+
+---
+string[] object_names
+float64[] object_positions_x
+float64[] object_positions_y
+

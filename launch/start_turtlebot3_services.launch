@@ -1,0 +1,17 @@
+<launch>
+    <!-- Launch the sense_objects_service.py node -->
+    <node name="sense_objects_service_node" pkg="turtlebot3_gazebo" type="sense_objects_service.py" output="screen" />
+
+    <!-- Launch the move_to_goal_service.py node -->
+    <node name="move_to_goal_service_node" pkg="turtlebot3_gazebo" type="move_to_goal_service.py" output="screen" />
+
+    <!-- Launch the pick_objects_nearby_service.py node -->
+    <node name="pick_objects_nearby_service_node" pkg="turtlebot3_gazebo" type="pick_objects_nearby_service.py" output="screen" />
+
+    <!-- Launch the place_objects_service.py node -->
+    <node name="place_objects_service_node" pkg="turtlebot3_gazebo" type="place_objects_service.py" output="screen" />
+
+    <!-- Launch the robot_pose_service.py node -->
+    <node name="robot_pose_service_node" pkg="turtlebot3_gazebo" type="robot_pose_service.py" output="screen" />
+</launch>
+
